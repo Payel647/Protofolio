@@ -20,3 +20,9 @@ window.onscroll = () => {
 
 
 /*==================== typed js ====================*/
+var typed = new Typed(".typing", {
+      strings: ["Full Stack Developer", "MERN Stack Developer", "Open Source Contributor"],
+      typeSpeed: 80,
+      backSpeed: 50,
+      loop: true
+    });
