@@ -17,6 +17,19 @@ window.onscroll = () => {
 
 
 /*==================== scroll reveal ====================*/
+var menuIcon1 = document.querySelector('#menu-icon');
+var navbar1 = document.querySelector('.navbar');
+
+menuIcon1.onclick = () => {
+  menuIcon1.classList.toggle('bx-x'); // icon change
+  navbar1.classList.toggle('active'); // menu show/hide
+};
+
+// scroll korle menu close hobe
+window.onscroll = () => {
+  menuIcon1.classList.remove('bx-x');
+  navbar1.classList.remove('active');
+}
 
 
 /*==================== typed js ====================*/
