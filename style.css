@@ -441,13 +441,14 @@ width: 400px;
 /* Contact Section */
 .contact {
   background: var(--bg-color);
-  padding: 6rem 9% 8rem;
+  /* padding: 6rem 9% 8rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .contact h2 {
+  margin-top:3rem;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -515,7 +516,6 @@ width: 400px;
   background: linear-gradient(90deg, var(--main-color), #00ffcc);
   box-shadow: 0 0 20px var(--main-color);
 }
-/* ================== Responsive ================== */
 @media (max-width: 991px) {
   section {
     padding: 8rem 5% 2rem;
@@ -642,11 +642,9 @@ width: 400px;
   .edu-exp-container {
     grid-template-columns: 1fr;
   }
-
   .skills-grid {
     grid-template-columns: 1fr;
   }
-
   .contact form {
     padding: 1.5rem;
   }
@@ -656,4 +654,69 @@ width: 400px;
     gap: 1rem;
   }
 }
+.new-footer {
+  background: #0f0f0f;
+  color: #ccc;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+}
 
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-name {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-tagline {
+  font-size: 14px;
+  margin-bottom: 25px;
+  color: #aaa;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-social-icons {
+  margin: 20px 0;
+}
+
+.footer-social-icons a {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer-social-icons a:hover {
+  color: #1da1f2; /* Twitter Blue or customize */
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: #666;
+  margin-top: 30px;
+}
