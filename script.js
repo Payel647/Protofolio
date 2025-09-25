@@ -6,16 +6,6 @@ let navbar = document.querySelector('.navbar');
 /*==================== scroll sections active link ====================*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
-
-window.onscroll = () => {
-
-
-    /*==================== sticky navbar ====================*/
-
-    /*==================== remove toggle icon and navbar when click navbar link (scroll) ====================*/
-};
-
-
 /*==================== scroll reveal ====================*/
 var menuIcon1 = document.querySelector('#menu-icon');
 var navbar1 = document.querySelector('.navbar');
